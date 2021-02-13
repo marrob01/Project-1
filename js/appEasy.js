@@ -9,6 +9,7 @@ class Cards {
 
         for (let num in numbers){
             for(let furit in cards){
+                console.log(this.deck)
                 this.deck.push( `${numbers[num]} of ${cards[furit]}`)
             }
         }
@@ -41,14 +42,13 @@ class Cards {
         $('#fifth-card').hide('slow');
         $('#sixth-card').hide('slow');
         
-    }, 5000 );
+    }, 3000 );
 
        
 
     }
 
     cardsMatch () {
-
         if(userCards[0].text() === userCards[1].text()) {
             $('#correct').append('x')
           } else {
