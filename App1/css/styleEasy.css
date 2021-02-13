@@ -1,0 +1,48 @@
+.card {
+    height :250px;
+    width:200px;
+    margin:20px;
+}
+
+#card-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+}
+.back-of-card {
+    background-color:red;
+}
+
+
+.card{
+    display:flex;
+}
+
+.card-text{
+    font-size:35px;
+    margin: 0 auto;
+
+}
+
+.card:hover{
+    background-color: black;
+}
+
+#footer{
+    margin-top: 100px;
+
+}
+#footer-list{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+   
+}
+
+.footer-btn {
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}

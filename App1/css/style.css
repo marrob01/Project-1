@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#game-box{
+    width:100%;
+    border:solid black; 
+  
+
+}
+
+#header-main{
+    border:dashed rgb(66, 94, 184);
+    width:250px;
+    margin: 0 auto;
+    padding:20px;
+}
+
+.home-btn {
+    padding: 14px 18px;  
+    margin:20px;
+    border-radius: 10px;
+    color: white;
+    background-color: #df3fdfbe;
+    font-family: 'Lexend Mega', sans-serif;
+
+}
+
+
+
+.home-btn:hover {
+    background-color: #3e578e
+}
+
+#modal {
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+}
+
+#modal-textbox {
+	background-color: white;
+	height: 350px;
+	width: 550px;
+	border-radius: 2px;
+	margin: 150px auto;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	padding: 2%;
+	line-height: 120%;
+}
+
+.modal-buttons {
+	padding: 14px 18px;
+	background-color: #677996;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	color: white;
+	font-family: 'Arial';
+	cursor: pointer;
+}
+
+#how-to-play-modal {
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+}
+
+#how-to-play-textbox {
+	background-color: white;
+	height: 350px;
+	width: 550px;
+	border-radius: 2px;
+	margin: 100px auto;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	padding: 2%;
+	line-height: 120%;
+}
+
+.how-to-play-btn {
+	padding: 14px 18px;
+	background-color: #c039a3;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	color: white;
+    font-family: 'Arial';
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1 {
+	padding-bottom: 15px;
+}
+
+#modal-footer {
+	text-align: right;
+}
+
+#close{
+	margin-left:0;
+}
